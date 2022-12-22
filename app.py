@@ -14,7 +14,7 @@ from PIL import Image
 def init():
     global model
     HF_AUTH_TOKEN = os.getenv("HF_AUTH_TOKEN")
-    MODEL_NAME = "runwayml/stable-diffusion-v1-5"
+    MODEL_NAME = os.getenv("MODEL_NAME")
     engine_dir = f'engine/{MODEL_NAME}'
     onnx_dir = "onnx"
     trt.init_libnvinfer_plugins(TRT_LOGGER, '')
