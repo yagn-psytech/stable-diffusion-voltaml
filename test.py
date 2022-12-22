@@ -13,8 +13,8 @@ model_inputs = {
 	"seed":3242
 }
 
-api_key = "8b4bf70c-de8d-44ed-8394-2d44870f1273"
-model_key = "1c593cef-06a7-4af9-8aa6-2233988d0ef2"
+api_key = ""
+model_key = ""
 
 # Run the model
 import time
