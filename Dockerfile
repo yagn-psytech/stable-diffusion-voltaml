@@ -21,7 +21,7 @@ WORKDIR /workspace
 
 # Install git
 RUN apt-get update && apt-get install -y git
-ENV HF_AUTH_TOKEN=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
+ENV HF_AUTH_TOKEN='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'
 ENV MODEL_NAME=runwayml/stable-diffusion-v1-5
 # Install python packages
 RUN pip3 install --upgrade pip
